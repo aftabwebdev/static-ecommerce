@@ -1,0 +1,79 @@
+@media screen and (min-width: 800px) {
+	form {
+		input,
+		select {
+			width: initial;
+		}
+	}
+
+	.radio-buttons,
+	.checkboxes {
+		label {
+			display: inline-block;
+		}
+	}
+
+	section,
+	hr,
+	h1 {
+		width: 90vw;
+		margin: auto;
+	}
+
+	.navbar {
+		@include flexbox(center, space-between);
+
+		.menu {
+			display: none;
+		}
+
+		.bottom {
+			@include flexbox(center, flex-end);
+			nav {
+				ul {
+					@include flexbox(center, right);
+
+					li:nth-last-child(1) {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+
+	.card {
+		min-width: 200px;
+		max-width: 250px;
+	}
+
+	.product-details {
+		.card {
+			min-width: 100%;
+			max-width: 100%;
+		}
+	}
+
+	.banner {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		gap: 2rem;
+
+		.website-description {
+			padding-left: 3rem;
+			text-align: unset;
+			.title {
+				font-family: Nunito, Arial, Helvetica, sans-serif;
+				font-weight: bold;
+			}
+		}
+
+		.image {
+			flex-basis: 480px;
+
+			img {
+				width: 100%;
+			}
+		}
+	}
+}

@@ -1,0 +1,47 @@
+input,
+select {
+	margin-bottom: 1rem;
+	padding: $control-padding;
+	border: 1px solid greyy;
+	border-radius: 0.5em;
+	&:focus {
+		outline: 2px solid lightblue;
+	}
+}
+
+input[type="button"],
+input[type="submit"] {
+	width: initial;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	cursor: pointer;
+	width: 1.3rem;
+	aspect-ratio: 1;
+}
+
+form {
+	input,
+	select {
+		display: block;
+		width: 100%;
+	}
+}
+
+.radio-buttons,
+.checkboxes {
+	label {
+		display: block;
+		position: relative;
+		cursor: pointer;
+		padding-left: 1.7rem;
+		margin: 0 1rem 1rem 0;
+
+		input {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	}
+}

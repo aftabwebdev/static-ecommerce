@@ -1,0 +1,23 @@
+.banner {
+	.website-description {
+		color: #333;
+		text-align: center;
+		.title {
+			font-family: $font-nunito;
+			font-size: 2.5em;
+			font-weight: bold;
+		}
+
+		.slogan {
+			font-size: 1.5rem;
+		}
+	}
+
+	.image {
+		width: 100%;
+
+		img {
+			width: 100%;
+		}
+	}
+}

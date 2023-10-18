@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+hr {
+	margin: 0.5rem 0;
+	border: 1px solid lightblue;
+}
+body {
+	font-family: $font-roboto;
+}
+section,
+hr,
+h1 {
+	margin: 0 0.5rem;
+}
+h1 {
+	font-family: $font-nunito;
+	text-align: center;
+	margin-bottom: 1rem !important;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 1rem 0 0.5rem 0;
+	font-family: $font-nunito;
+}
+p {
+	margin: 1rem 0 0.5rem 0;
+}
+a {
+	text-decoration: none;
+}
